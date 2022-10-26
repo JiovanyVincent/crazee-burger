@@ -26,6 +26,7 @@ function LoginForm() {
   return (
     <FormContainer onSubmit={(e) => handleSubmit(e)}>
       <Title>{TEXTS.titleLogin}</Title>
+      <br />
       <Subtitle>{TEXTS.connexion}</Subtitle>
       <Input
         required
